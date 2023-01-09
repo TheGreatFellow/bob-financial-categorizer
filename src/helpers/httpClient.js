@@ -1,8 +1,8 @@
 import axios from 'axios'
-// axios.defaults.headers.post['Content-Type'] = 'application/json'
+axios.defaults.headers.post['Content-Type'] = 'application/json'
 const httpClient = axios.create({
     baseURL: 'https://hackathon.pirimidtech.com/hackathon',
-    // withCredentials: true,
+    withCredentials: true,
 })
 
 httpClient.interceptors.request.use(function (config) {
