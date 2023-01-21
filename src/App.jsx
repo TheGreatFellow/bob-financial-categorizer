@@ -12,8 +12,7 @@ function App() {
             vuaId: '9987600001@dashboard-aa-uat',
             templateName: 'ONETIME',
             trackingId: '123456',
-            redirectionUrl:
-                'https://bob-financial-categorizer.vercel.app/dashboard',
+            redirectionUrl: 'https://bob-financial-categorizer.vercel.app',
             fipIds: [],
         })
         httpClient({
