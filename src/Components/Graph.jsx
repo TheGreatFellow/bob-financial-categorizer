@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import DonutChart from 'react-donut-chart'
 import '../css/dashboard.css'
-function Graph() {
+function Graph(props) {
     // const [analytics, setAnalytics] = useState([])
 
     // const [credit, setCredit] = useState(0)
@@ -56,31 +56,8 @@ function Graph() {
     //         .monthlyCategoryWiseAnalysis.Utilities[0].totalDebitAmount
     // )
     return (
-        <div className=''>
-            <DonutChart
-                data={[
-                    {
-                        label: 'EMI',
-                        value: 400858,
-                    },
-                    {
-                        label: 'Healthcare',
-                        value: 47790,
-                    },
-                    {
-                        label: 'Utilities',
-                        value: 48794,
-                    },
-                    {
-                        label: 'Merchant Expenditure',
-                        value: 139345,
-                    },
-                    {
-                        label: 'Cash WIthdrawal',
-                        value: 417050,
-                    },
-                ]}
-            />
+        <div className='gra'>
+            <DonutChart width={690} data={props.data} />
         </div>
     )
 }
