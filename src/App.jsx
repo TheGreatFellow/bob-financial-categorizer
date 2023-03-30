@@ -68,7 +68,7 @@ function App() {
                     <button>get consent</button>
                 </div> */}
 <a href='https://gaurav7888-bob-app-4dihn7.streamlit.app/'>
-                <button onClick={handleSubmit}>
+                <button>
                     <div class='svg-wrapper-1'>
                         <div class='svg-wrapper'>
                             <svg
