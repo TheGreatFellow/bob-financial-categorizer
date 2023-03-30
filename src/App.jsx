@@ -58,16 +58,16 @@ function App() {
                     <Link to='/dashboard'>
                         <a href='#'>Dashboard</a>
                     </Link>
-                    <Link to='/freelancers'>
-                        <a href='#'>For FIU's</a>
-                    </Link>
-                    <Link to='/clients'>
-                        <a href='#'>For FIP's</a>
-                    </Link>
+               
+                        <a href='https://gaurav7888-bob-app-4dihn7.streamlit.app/'>For FIU's</a>
+              
+                        <a href='https://gaurav7888-bob-app-4dihn7.streamlit.app/'>For FIP's</a>
+                 
                 </div>
                 {/* <div className='world-id'>
                     <button>get consent</button>
                 </div> */}
+<a href='https://gaurav7888-bob-app-4dihn7.streamlit.app/'>
                 <button onClick={handleSubmit}>
                     <div class='svg-wrapper-1'>
                         <div class='svg-wrapper'>
@@ -87,6 +87,7 @@ function App() {
                     </div>
                     <span>Login</span>
                 </button>
+</a>
             </header>
             <div className='home-container'>
                 <section className='hero'>
